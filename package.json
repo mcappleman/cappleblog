@@ -2,7 +2,7 @@
   "name": "cappleblog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mcappleman.github.io/cappleblog",
+  "homepage": "http://blog.capplecloud.com",
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "moment": "^2.19.1",
