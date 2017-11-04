@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
 
-import Body from './Home';
+import Home from './Home';
 import Sports from './Sports';
 
-class Body extends Component {
+class BodyRoutes extends Component {
   render() {
     return (
 	<Switch>
@@ -17,4 +16,4 @@ class Body extends Component {
   }
 }
 
-export default Body;
+export default BodyRoutes;
