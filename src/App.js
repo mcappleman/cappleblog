@@ -3,6 +3,8 @@ import {Button} from 'reactstrap';
 import logo from './logo.svg';
 import './App.css';
 
+import Body from './Body';
+
 class App extends Component {
   render() {
     return (
@@ -11,11 +13,8 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-	<Button color="danger">Danger!</Button>
-      </div>
+       </div>
+       <Body />
     );
   }
 }
