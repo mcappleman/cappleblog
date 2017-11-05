@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import {Button} from 'reactstrap';
-import logo from './logo.svg';
 import './App.css';
 
 import BodyRoutes from './BodyRoutes';
 import Footer from './Footer';
+import Header from './Header';
 
 class App extends Component {
     render() {
@@ -13,14 +11,9 @@ class App extends Component {
 
         <div className="App">
 
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <h1 className="App-title">Welcome to React</h1>
-	        <Button color="danger"><Link to="/">Go Home</Link></Button>
-	        <Button color="danger"><Link to="/sports">Go Sports</Link></Button>
-            </header>
+	    <Header />
 
-	    <div className="container">
+	    <div className="container body-content">
                 <BodyRoutes />
 	    </div>
 
